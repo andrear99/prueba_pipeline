@@ -8,6 +8,8 @@ pipeline {
                 //sh "cd jenkins"
                 //sh "java DemoApplication.java"
                 echo 'hola mundo'
+                echo 'hola mundo'
+
             }
         }
         stage("Probar") {

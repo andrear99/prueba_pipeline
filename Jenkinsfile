@@ -5,6 +5,7 @@ pipeline {
             steps {
                 //javac holamundo.java
                 //java holamundo.
+                echo 'ey'
              
 
             }

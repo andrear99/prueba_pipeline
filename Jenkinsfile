@@ -3,9 +3,9 @@ pipeline {
     stages {
         stage("Compilar") {
             steps {
-                sh "cd src"
-                sh "cd main"
-                sh "cd jenkins"
+                //sh "cd src"
+                //sh "cd main"
+                //sh "cd jenkins"
                 sh "java DemoApplication.java"
             }
         }

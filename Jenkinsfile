@@ -6,7 +6,8 @@ pipeline {
                 //sh "cd src"
                 //sh "cd main"
                 //sh "cd jenkins"
-                sh "java DemoApplication.java"
+                //sh "java DemoApplication.java"
+                echo 'hola mundo'
             }
         }
         stage("Probar") {

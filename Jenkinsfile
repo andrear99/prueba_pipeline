@@ -3,8 +3,8 @@ pipeline {
     stages {
         stage("Compilar") {
             steps {
-                //javac holamundo.java
-                //java holamundo.
+                sh 'javac holamundo.java'
+                sh 'java holamundo.'
                 echo 'ey'
              
 
